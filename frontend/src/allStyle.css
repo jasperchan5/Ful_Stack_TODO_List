@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+html, body{
+  background-color: antiquewhite;
+}
+
+.list_body{
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  background: white;
+  border: 1px black solid;
+  text-align: center;
+  display: flex;
+  font-size: 0.8cm;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.list_body input[type="checkbox"]:checked{
+  accent-color: green;
+  width: 10px;
+  height: 10px;
+}
+
+.add_button{
+  width: 20%;
+  height: 40px;
+  background: white;
+  border: 1px black solid;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6cm;
+  border-radius: 0px 10px 10px 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.add_input{
+  width: 80%;
+  height: 40px;
+  background: white;
+  border: 1px black solid;
+  font-size: 0.8cm;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.edit_button{
+  width: 20%;
+  height: 40px;
+  background: white;
+  border: 1px black solid;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.5cm;
+  border-radius: 0px 10px 10px 0px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.edit_input{
+  width: 80%;
+  height: 40px;
+  background: white;
+  border: 1px black solid;
+  font-size: 0.8cm;
+  margin: auto;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.toggle_button{
+  width: 80%;
+  margin-left: 10%;
+  height: 40px;
+  background: white;
+  border: 1px black solid;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6cm;
+  font-family: 'Quicksand', sans-serif;
+  border-radius: 10px;
+}
+
+.toggle_button.clicked{
+  background: #3da94f;
+  color: white;
+}
+
+.delete_button{
+  width: 70%;
+  margin-left: 15%;
+  height: 30px;
+  color: azure;
+  background: rgb(177, 42, 42);
+  border: 1px black solid;
+  cursor: pointer;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6cm;
+  border-radius: 10px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.delete_button.clicked{
+  background: #3e0a0a;
+  color: white;
+}
+
+.sure_section{
+  width: 25%;
+  margin-left: 75%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.sure_text{
+  font-size: 0.5cm;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.sure_text.question{
+  color: rgb(177, 42, 42);
+}
+
+.sure_text.yes{
+  color: rgb(42, 177, 42);
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.sure_text.no{
+  color: rgb(42, 42, 177);
+  cursor: pointer;
+}
